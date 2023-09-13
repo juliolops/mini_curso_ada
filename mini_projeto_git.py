@@ -11,12 +11,12 @@ df = pd.DataFrame({"A":[10,20,10,20,30,40,50,10,20],
 
 
 
-st.header("DATAFRAME PLOT:")
+st.header("DATAFRAME:")
 st.table(df)
 
 
 options_reasons = st.selectbox(
-    'COLUNAS DATAFRAME',
+    'COLUNAS DATASET',
      list(df.columns))
 
 
