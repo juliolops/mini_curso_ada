@@ -20,7 +20,7 @@ options_reasons = st.selectbox(
      list(df.columns))
 
 
-st.header("MÉTRICAS GERAIS:")
+st.header("MÉTRICAS CLONE:")
 
 col1, col2, col3  = st.columns(3)
 
