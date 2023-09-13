@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.title("EXEMPLO STREAMLIT:")
+st.title("EXEMPLO STREAMLIT ORIGINAL:")
 
 
 df = pd.DataFrame({"A":[10,20,10,20,30,40,50,10,20],
@@ -11,7 +11,7 @@ df = pd.DataFrame({"A":[10,20,10,20,30,40,50,10,20],
 
 
 
-st.header("DATAFRAME:")
+st.header("DATAFRAME ORIGINAL:")
 st.table(df)
 
 
