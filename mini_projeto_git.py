@@ -16,11 +16,11 @@ st.table(df)
 
 
 options_reasons = st.selectbox(
-    'COLUNAS DATASET',
+    'COLUNAS DATASET BRANCH',
      list(df.columns))
 
 
-st.header("MÉTRICAS CLONE:")
+st.header("MÉTRICAS CLONE BRANCH:")
 
 col1, col2, col3  = st.columns(3)
 
