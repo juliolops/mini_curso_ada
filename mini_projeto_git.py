@@ -11,7 +11,7 @@ df = pd.DataFrame({"A":[10,20,10,20,30,40,50,10,20],
 
 
 
-st.header("DATAFRAME CLONE 3:")
+st.header("DATAFRAME PLOT:")
 st.table(df)
 
 
@@ -20,7 +20,7 @@ options_reasons = st.selectbox(
      list(df.columns))
 
 
-st.header("METRICS v1:")
+st.header("MÉTRICAS GERAIS:")
 
 col1, col2, col3  = st.columns(3)
 
